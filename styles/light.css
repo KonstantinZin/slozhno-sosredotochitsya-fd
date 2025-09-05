@@ -17,6 +17,7 @@
   --border-from-button: #353430;
   --color-from-corner: #353430;
   --title-color: #353430;
+  --bg-color: #FFF1F7;
 }
 
   .theme-light .decorative__REC {
@@ -45,6 +46,7 @@
   --border-from-button: #353430;
    --color-from-corner: #353430;
    --title-color: #353430;
+   --bg-color: #FFF1F7;
   }
   .decorative__REC {
   display: none;

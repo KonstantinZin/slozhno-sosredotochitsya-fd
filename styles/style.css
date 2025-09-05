@@ -2,7 +2,7 @@
 
 .page {
     width: 100%;
-    background-color: #000028;
+    background-color: var(--bg-color,#000028);
     background-image: var(--bg-image, #000028);
     background-repeat: no-repeat;
     background-position: center;
