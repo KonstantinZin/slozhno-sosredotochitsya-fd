@@ -23,10 +23,6 @@
   display: none;
 }
 
-/* .theme-light .header__theme-menu-button_type_light {
-    border: 1px solid var(--border-from-button, #ff0070);
-} */
-
 .theme-light .header__theme-menu-button_type_dark {
   border: none;
 }
@@ -39,7 +35,7 @@
   :root {
      --title: #FFC2E6;
   --link-color:#F1B2CE;
-  --button-hover:#353430;
+  --button-hover:#32312D66;
   --text-color:#353430;
   --accent-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
