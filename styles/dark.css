@@ -22,3 +22,11 @@
   .theme-dark .decorative__REC {
   display: inline;
 }
+ 
+.theme-dark .header__theme-menu-button_type_dark {
+  display: inline-block;
+}
+
+.theme-dark .header__theme-menu-button_type_light {
+    border: none;
+}
