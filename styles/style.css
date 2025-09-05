@@ -15,7 +15,7 @@
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
     padding-top: 20px;
-    padding-right: 9px;
+    padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
 }
@@ -86,7 +86,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    text-decoration: underline #ff0070 solid;
+    text-decoration: underline var(--border-from-button,#ff0070 ) solid;
     text-underline-offset: 4px;
 }
 
