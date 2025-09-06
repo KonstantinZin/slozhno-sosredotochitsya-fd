@@ -2,7 +2,7 @@
 
 .page {
     width: 100%;
-    background-color: var(--bg-color,#000028);
+    background-color: var(--bg-color, #000028);
     background-image: var(--bg-image, #000028);
     background-repeat: no-repeat;
     background-position: center;
@@ -26,25 +26,25 @@
 }
 
 .decorated-zone::after {
-  content: "";
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  width: 25px;
-  height: 25px;
-  border-inline-start: 1px solid var(--color-from-corner, #ff0070);
-  border-block-end: 1px solid var(--color-from-corner, #ff0070);
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    border-inline-start: 1px solid var(--color-from-corner, #ff0070);
+    border-block-end: 1px solid var(--color-from-corner, #ff0070);
 }
 
 .decorated-zone::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 25px;
-  height: 25px;
-  border-inline-end: 1px solid var(--color-from-corner, #ff0070);
-  border-block-start: 1px solid var(--color-from-corner, #ff0070);
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    border-inline-end: 1px solid var(--color-from-corner, #ff0070);
+    border-block-start: 1px solid var(--color-from-corner, #ff0070);
 }
 
 .header__theme-menu {
@@ -83,18 +83,10 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    border-bottom: 1px var(--border-from-button,#ff0070 ) solid;
+    border-bottom: 1px var(--border-from-button, #ff0070) solid;
 }
 
-.theme-dark .header__theme-menu-button_type_dark {
-    border: 1px solid var(--border-from-button, #ff0070);
-}
-
-.theme-light .header__theme-menu-button_type_light {
-    border: 1px solid var(--border-from-button, #ff0070);
-} 
-
-.theme-auto .header__theme-menu-button_type_auto {
+.header__theme-menu-button_active {
     border: 1px solid var(--border-from-button, #ff0070);
 }
 
@@ -250,8 +242,8 @@
     }
 
     .decorated-zone::after {
-         bottom: 20px;
-  left: 20px;
+        bottom: 20px;
+        left: 20px;
     }
 
     .decorated-zone::before {
@@ -366,7 +358,6 @@
     .footer {
         padding-top: 60px;
     }
-
 }
 
 @media (width >= 1024px) {
@@ -427,5 +418,4 @@
     .footer {
         padding-bottom: 35px;
     }
-
 }
