@@ -169,7 +169,6 @@ article {
 
 .title__card-text {
     margin-top: 20px;
-    margin-bottom: 0;
     font-family: var(--text-family, sans-serif);
     font-weight: var(--font-weight-bold, 700);
     font-size: var(--font-size, 18px);
@@ -178,7 +177,6 @@ article {
 
 .subtitle__card-text {
     margin-top: 20px;
-    margin-bottom: 0;
     font-family: var(--text-family, sans-serif);
     font-weight: 400;
     font-size: var(--font-size, 18px);
@@ -302,7 +300,6 @@ article {
 
     .title__card-text {
         margin-top: 0;
-        margin-bottom: 0;
     }
 
     .contetnt-section {
@@ -323,7 +320,6 @@ article {
 
     .subtitle__card-text {
         margin-top: 0;
-        margin-bottom: 0;
     }
 
     .pictures-content {
@@ -407,10 +403,6 @@ article {
         padding-bottom: 60px;
     }
 
-    .title__card-text {
-        margin-bottom: 0;
-    }
-
     .article-list {
         grid-column: 2 / 4;
     }
@@ -428,7 +420,6 @@ article {
 
     .subtitle__card-text {
         margin-top: 0;
-        margin-bottom: 0;
     }
 
     .footer {
